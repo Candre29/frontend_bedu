@@ -81,7 +81,7 @@ li{
 }
 
 .main{
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
 
 }
@@ -99,4 +99,43 @@ li{
 .demo{
     border-radius: 5px;
     padding: 0px 10px 0px 10px;
+}
+
+/* sesion 3  */
+.publicidad{ 
+    color:#025157;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafopu{
+    color:#343434;
+}
+
+.flexpubli{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px auto;
+    width:70%;
+}
+
+.flexcol{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:100px auto;
+    width:70%;
+}
+
+.espacio{
+    margin-left: 40px;
+}
+
+.fix-header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: #fffbf7;
 }
