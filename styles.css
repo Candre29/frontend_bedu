@@ -141,6 +141,41 @@ li{
 }
 
 .features {
+    border-style: solid;
+    height: 660px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    background-color: #025157;
+    padding: 60px 120px;
+    grid-gap: 75px;
+}
+
+.crt{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.primerflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.column{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+    
+}
+.articletext{
+    width: 300px;
+}
+
+.enlace{
+    color:#67b54b;
+    font-weight: 900;
 }
