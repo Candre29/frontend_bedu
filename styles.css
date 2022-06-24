@@ -5,6 +5,8 @@ body {
 h1 {
     color: #025157;
     text-align: center;
+    font-size: 3em;
+    /* font-size: 60px; */
 }
 
 p{
@@ -184,11 +186,69 @@ li{
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px){
     .navbar,
-    .actions {
+    .actions,
+    .header {
       display: none;
     }
+    #titulo{
+        font-size: 30px;
+    }
+    .main{
+        margin-top: 100px;
+        text-align: center;
+    
+    }
+
+    body{
+        background-color: aqua;
+    }
+
+    .banner > img{
+        width:100%;
+    }
+
+    .espacio {
+        margin-top: 10px;
+    }
+
+    .espacio > h1 {
+        font-size: 25px;
+        line-height: 1.2;
+      }
+
+
+
+    .espacio > form{
+        flex-direction: column;
+    }
+
+    .espacio > form > div {
+        height: 50px;
+        margin-top: 10px;
+      }
+    
+    .espacio > form > div > input{
+        width: 65%;
+    }
+
+
+    .flexpubli{
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .flexcol > vide{
+        width: 100%;
+    }
+
+
+
+
+
   }
   
+
+
   /** dispositivos pequeños en vista landscape (horizontal) */
   @media (min-width: 576px) and (max-width: 767px) {
     
