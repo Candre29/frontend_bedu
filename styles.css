@@ -179,3 +179,9 @@ li{
     color:#67b54b;
     font-weight: 900;
 }
+
+@media (max-width: 575px){
+    body{
+        background-color: aqua;
+    }
+}
