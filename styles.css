@@ -142,9 +142,10 @@ li{
     background-color: #fffbf7;
 }
 
+/* Features */
 .features {
     border-style: solid;
-    height: 660px;
+    /* height: 660px; */
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     background-color: #025157;
@@ -155,6 +156,7 @@ li{
 .crt{
     background-color: white;
     border-radius: 10px;
+    width:85%;
 }
 
 .primerflex{
@@ -174,14 +176,16 @@ li{
     
 }
 .articletext{
-    width: 300px;
+    width: 75%;
 }
 
 .enlace{
     color:#67b54b;
     font-weight: 900;
+    width: 75%;
 }
 /* Media Queries */
+
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px){
@@ -241,6 +245,21 @@ li{
         width: 100%;
     }
 
+    .features {
+        border-style: solid;
+        /* height: 660px; */
+        display: grid;
+        grid-template: repeat(4,1fr) / 1fr;
+        background-color: #025157;
+        padding: 0px 5px;
+        grid-gap: 75px;
+    }
+
+    .figure-feature > img {
+        display: none;
+    }
+
+   
 
 
 
