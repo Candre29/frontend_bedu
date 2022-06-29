@@ -222,6 +222,46 @@ li{
     max-width: 100%;
   }
 
+
+
+
+  .success-stories .card .card-body .card-circle {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:150px;
+    right: 30px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  /* Cada círculo tiene su propio color. Verifica qué significa este selector: .card-circle.everly */
+  .success-stories .card .card-body .card-circle.everly {
+    background-color: #f9da73;
+    border: 5px solid #f9da73;
+  }
+  
+  /* Los círculos deben recibir la imagen y ajustarla al tamaño */
+  .success-stories .card .card-body .card-circle.everly img {
+    object-fit: contain;
+    width: 100%;
+  }
+
+
+  .results{
+    display:flex;
+  }
+
+  .results > img{
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+
 /* Media Queries */
 
 
