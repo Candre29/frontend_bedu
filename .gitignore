@@ -132,6 +132,11 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+## Office###
+*.docx
+icons
+scss
+.swp
 ### Node Patch ###
 # Serverless Webpack directories
 .webpack/
