@@ -3,56 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Andru</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="output.css">
-
-
     
+    <title>Andru</title>
+      
 </head>
+
 <body>
-    <!-- <section class="fix-header">
-        <header class="header">
-            <a class="logo" href="/">
-                <img src="https://img.freepik.com/free-vector/vector-illustration-green-plant-matcha-logo-made-as-matcha-drink-matcha-dessert-green-tea-design_557439-1680.jpg?w=2000" alt="Matcha">
-            </a> -->
-            <!-- Menu -->
-            <!-- <nav class="navbar">
-                <ul>
-                    <li > Products</li>
-                    <li > Templates</li>
-                    <li >Pricing</li>
-                    <li >Customers</li>
-                    <li >Blog</li>
-                    <li >Resources</lis>
-                    
-                </ul>
-
-            </nav> -->
-            <!-- acciones -->
-            <!-- <div class="actions">
-                <button class= "demo singin">Sing In</button>
-                <button class="demo trial">Start free trial</button>
-
-            </div>
-        </header>
-    </section> -->
-
-
+    
     <!-- Navar Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="width:100%;">
         <div class="container-fluid">
-          <a class="navbar-brand logo" href="#"> <img src="https://img.freepik.com/free-vector/vector-illustration-green-plant-matcha-logo-made-as-matcha-drink-matcha-dessert-green-tea-design_557439-1680.jpg?w=2000" alt="Matcha"></a>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          <a class="navbar-brand logo" href="#"> 
+            <img src="https://img.freepik.com/free-vector/vector-illustration-green-plant-matcha-logo-made-as-matcha-drink-matcha-dessert-green-tea-design_557439-1680.jpg?w=2000" alt="Matcha">
+          </a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"> </span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
@@ -70,23 +41,15 @@
               <li class="nav-item">
                 <a class="nav-link">Resources</a>
               </li>
-            </ul>
-            
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <button class="btn  btn-primary" type="submit">Start free trial</button>
-                </li>
-                <li class="nav-item">
-                    <button class="btn  btn-success" type="submit">Start free trial</button>
-                </li>
-            </ul>   
+            </ul>  
+            <form class="d-flex">
+              <button class="btn btn-outline-success" type="submit" style="margin-right: 10px;">Sign In</button>
+              <button class="btn btn-success" type="submit">Start free trial</button>
+            </form>
+
           </div>
         </div>
-    </nav>
-
-
-    
-
+     </nav>
 
     <section class="main">
         <h1 id="titulo"> Build your bussiness online</h1>
@@ -96,15 +59,21 @@
 
 
         <p>Instantly publish articles, drive more traffic, grow your email</p>
-        <form>
-            <input type="email" />
-            <button type="submit"> 
+        <form class="d-flex justify-content-center">
+            <input type="email" placeholder="Enter email addres" style="border-radius: 10px 0px 0px 10px;"/>
+            <button type="submit" class="texto-boton" style="border-radius: 0px 10px 10px 0px;"> 
                 Try it now &rarr;
             </button>
         </form>
+        <p style="font-size:1rem;">
+          Start publishing today with a <strong>7-day trial.</strong>
+        </p>
+        <p  style="font-size:1rem;">
+          <strong>No credit card</strong> required.
+        </p>
 
-        <figure class="banner">
-            <img  src= "https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="capterra">
+        <figure>
+            <img  src= "https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" class=" mx-auto" style="width: 75%;" alt="capterra">
         </figure>
         
 
@@ -209,7 +178,7 @@
         </div>
     </section>
 
-
+<!-- Carousell -->
     <section class="success-stories">
         <article class="overview">
           <h2>Growing ecommerce brands rely on Matcha.</h2>
@@ -328,8 +297,54 @@
             </section>
         </article>
       </section>
+<!-- Postwork 4, practicando Grid -->
+<section class="container-fluid py-5" id="4grids">
+  <h1>How does Matcha work</h1>
+  <p class="text-center">You can be so much more than window dressing. Use Matcha's <a class="meineLink" href="#">simple formula</a> to transform your blog into an ecommerce growth engine.</p>
+  <div class="d-flex justify-content-center">
+    <button type="button" class="btn btn-success btn-lg">
+      Explore the platform
+    </button>  
+  </div>
+  <div class="meinGrid">
+    <section class="first">
+      <img src="https://images.squarespace-cdn.com/content/v1/53aadf1de4b0a0a817640cca/1617211760590-MPIFXI8EC4KMQ26SH3OW/Publish+or+perish.jpg?format=500w" width="100%";alt="publish">
+      <h2 class="cartas">Publish</h2>
+      <p class="cartasP"> Effortlessly fill your blog with content that shoppers want to read. </p>
+      <a class="meineLink" href="#" style="padding-left: 20%;">Publish instantly &rarr; </a>
+
+    </section>
+
+    <section class="second">
+      <h2 class="cartas">Promote</h2>
+      <p class="cartasP">Use articles in email, social, and content ads to attract more site visitors. </p>
+    </section>
+
+    <section class="third">
+      <h2 class="cartas">Capture</h2>
+      <p class="cartasP">Turn readers into email subscribers and subscribers into customers. </p>
+
+    </section>
+
+    <section class="four">
+      <h2 class="cartas">Measure</h2>
+      <p class="cartasP"> See what’s working and what’s not to easily optimize for more traffic, email subscribers, and sales.
+        Track</p>
+
+    </section>
 
 
+  </div>
+  
+
+
+
+
+
+
+</section>
+
+<!-- Blog where goes succesfull stories -->
       <section class="container blog">
         <div class="row">
           <div class="col">
