@@ -1,0 +1,70 @@
+/**
+About us
+*/
+/**
+Comentario por bloques
+*/
+nav .logo {
+  width: 15%;
+}
+nav .logo > img {
+  width: 40%;
+}
+
+.blogo {
+  margin-top: 285px;
+}
+.blogo h1 {
+  color: #025157;
+  text-align: center;
+}
+.blogo p {
+  text-align: center;
+}
+.blogo .promo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "social" "moto" "dineros";
+}
+.blogo .item1 {
+  display: flex;
+  flex-direction: column;
+  grid-area: "social";
+  margin-right: 5%;
+  margin-left: 10%;
+}
+.blogo .item2 {
+  display: flex;
+  flex-direction: column;
+  grid-area: "moto";
+  margin-right: 5%;
+}
+.blogo .item3 {
+  display: flex;
+  flex-direction: column;
+  grid-area: "dineros";
+  margin-right: 10%;
+}
+.blogo .centro {
+  text-align: center;
+}
+.blogo .shadow-sm:hover {
+  transform: scale(1.03) rotate(0.3deg);
+}
+.blogo .feature__title {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 35px;
+  text-decoration: none;
+  text-shadow: #025157 1px 1px 2px;
+  transition: color 0.3s ease-in-out;
+  transition: font-size 3s;
+}
+.blogo .feature__title:hover {
+  color: #67b54b;
+  font-size: 28px;
+}
+
+/*# sourceMappingURL=ready.css.map */
