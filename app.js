@@ -1,0 +1,1 @@
+alert("Secciones habilitadas: Pricing & About Us")
