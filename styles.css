@@ -15,9 +15,31 @@ p{
     font-size: 20px;
 }
 
-button{
-    color: white;
+input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+
+
+
+
+input, button {
+    height: 100%;
+    border-radius: 6px;
+    height: 60%;
+
+}
+
+button {
     background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 7px 20px;
+    margin-left: -10px;
 
 }
 
@@ -189,6 +211,8 @@ li{
     color:#67b54b;
     font-weight: 900;
     width: 75%;
+    text-decoration: none;
+
 }
 
 
@@ -345,7 +369,50 @@ li{
     
 }
 
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "try button";
+    background-color: #025157;
+    border-radius: 10px;
+    align-items: center;
 
+}
+
+.tryMessage{
+    grid-area: try;
+
+}
+
+.tryMessage h1{
+    color:white;
+    padding: 3rem;
+    padding-bottom: 0;
+    font-size: 2rem;
+    text-align: left;
+    width: 80%;
+}
+
+.tryMessage p{
+    text-align: left;
+    width: 90%;
+    padding: 3rem;
+    padding-top: 0;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.tryButton{
+    grid-area: button;
+}
+
+.ultimop{
+    color:#b3cbcd;
+    font-size: 14px;
+    width: 80%;
+    margin-top: 5%;
+}
 /* Media Queries */
 
 
