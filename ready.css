@@ -4,6 +4,9 @@ About us
 /**
 Comentario por bloques
 */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Noto+Sans+SC:wght@100&family=Rubik+Moonrocks&display=swap');
+
+
 nav .logo {
   width: 15%;
 }
@@ -17,6 +20,8 @@ nav .logo > img {
 .blogo h1 {
   color: #025157;
   text-align: center;
+  font-size: 4rem;
+  font-family: 'Rubik Moonrocks', cursive;
 }
 .blogo p {
   text-align: center;
